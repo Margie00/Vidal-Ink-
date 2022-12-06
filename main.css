@@ -1,0 +1,63 @@
+body{
+    background-color: #f1ece4;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddcab2;
+    width: 100%;
+    height: 10em;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navtags{
+    text-decoration: none;
+    color: white;
+    opacity: 100%;
+    margin-top: 4em;
+    font-size: 30px;
+}
+
+.IGtags{
+    margin-top: 7.5em;
+}
+
+#IGicon{
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #ddcab2;
+    width: 100%;
+    height: 20em;
+}
+
+#footerAdd{
+    color: #a47551;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 480px) {
+    header{
+        width: 750px;
+    }
+    footer{
+        width: 750px;
+    }
+}

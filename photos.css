@@ -1,0 +1,62 @@
+#titleDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#title{
+    color: #a47551;
+    font-size: 5em;
+}
+
+#picsUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+li{
+    margin: 10px;
+    background-color: #d0b49f;
+}
+
+.pics{
+    width: 30em;
+    height: 30em;
+    margin: 3em;
+}
+
+.picText{
+    text-align: center;
+    color: #a47551;
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+@media (max-width: 480px) {
+    #photosMain{
+        width: 750px;
+    }
+    #title{
+        font-size: 30px;
+        text-align: center;
+    }
+    li{
+        width: 500px;
+        background-color: #d0b49f;
+    }
+    #picsDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pics{
+        width: 10em;
+        height: auto;
+        margin: 3em;
+    }
+}

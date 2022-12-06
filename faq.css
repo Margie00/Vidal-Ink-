@@ -1,0 +1,40 @@
+#faqMain{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    text-align: center;
+    color: #a47551;
+    font-size: 50px;
+    margin-top: 3em;
+}
+
+#faqUl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li{
+    width: 75vw;
+}
+
+.questions{
+    color: #a47551;
+    font-size: 30px;
+}
+
+.answers{
+    color: #d0b49f;
+    font-size: 25px;
+}
+
+@media (max-width: 480px) {
+#faqMain{
+    width: 750px;
+}
+li{
+    width: 500px;
+}
+}
